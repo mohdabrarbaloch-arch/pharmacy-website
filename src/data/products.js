@@ -1,5 +1,21 @@
 export const products = [
-  // ─── Pain & Fever ───
+  // ───── Real Inventory: ARCU GLEAM Face Wash ─────
+  {
+    id: 100,
+    name: 'ARCU GLEAM Face Wash 100ml',
+    category: 'skin-care',
+    price: 850,
+    oldPrice: 999,
+    rating: 4.8,
+    reviews: 320,
+    image: 'products/arcu-gleam-card.jpg',
+    description: 'Deep clean, oil control & hydration boost face wash for acne-prone skin. Salicylic Acid deep cleanses and unclogs pores, Niacinamide controls oil and improves skin tone, and Hyaluronic Acid hydrates and maintains the skin barrier. For clear, fresh & healthy skin.',
+    dosage: 'Use twice daily: wet face, massage a small amount gently over skin, rinse with water. Avoid contact with eyes.',
+    stock: true,
+    prescription: false,
+    badge: 'Real Product'
+  },
+  // ───── Pain & Fever ─────
   {
     id: 1,
     name: 'Panadol Extra 500mg',
@@ -61,7 +77,7 @@ export const products = [
     badge: null
   },
 
-  // ─── Antibiotics & Anti-infectives ───
+  // ───── Antibiotics & Anti-infectives ─────
   {
     id: 5,
     name: 'Augmentin 1g',
@@ -123,7 +139,7 @@ export const products = [
     badge: null
   },
 
-  // ─── Vitamins & Supplements ───
+  // ───── Vitamins & Supplements ─────
   {
     id: 9,
     name: 'Centrum Multivitamin',
@@ -185,7 +201,7 @@ export const products = [
     badge: null
   },
 
-  // ─── Diabetes Care ───
+  // ───── Diabetes Care ─────
   {
     id: 13,
     name: 'Glucophage 500mg',
@@ -247,7 +263,7 @@ export const products = [
     badge: null
   },
 
-  // ─── Heart & BP ───
+  // ───── Heart & BP ─────
   {
     id: 17,
     name: 'Concor 5mg',
@@ -309,7 +325,7 @@ export const products = [
     badge: null
   },
 
-  // ─── Skin & Allergy ───
+  // ───── Skin & Allergy ─────
   {
     id: 21,
     name: 'Claritin 10mg',
@@ -374,6 +390,7 @@ export const products = [
 
 export const categories = [
   { id: 'all', label: 'All Products', icon: '🧺' },
+  { id: 'skin-care', label: 'Skin Care', icon: '✨' },
   { id: 'pain', label: 'Pain & Fever', icon: '💊' },
   { id: 'antibiotics', label: 'Antibiotics', icon: '🦠' },
   { id: 'vitamins', label: 'Vitamins & Supplements', icon: '💪' },
@@ -425,7 +442,7 @@ export const services = [
     desc: 'Same-day delivery across major cities in 2–4 hours. Cold-chain packaging for temperature-sensitive medicines.'
   },
   {
-    icon: '🩺',
+    icon: '🧪',
     title: 'Health Consultations',
     desc: 'Chat with licensed pharmacists 24/7 for medication advice, dosage guidance and health queries — free with every order.'
   },
