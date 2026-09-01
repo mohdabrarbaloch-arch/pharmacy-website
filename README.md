@@ -3,7 +3,7 @@
 A modern, production-quality **React + Vite** pharmacy website for Pakistan, featuring a stunning landing page and a full product shop.
 
 ## 🔗 Live Demo
-https://static.teamily.ai/sites/7a540d25-b8ec-4c95-a46e-c12d11d61cc2/webpages/pharmacy-website/index.html
+https://static.teamily.ai/sites/7a540d25-b8ec-4c95-a46e-c12d11d61cc2/webpages/pharmacy-website_v2/index.html
 
 ## ✨ Features
 
@@ -16,11 +16,14 @@ https://static.teamily.ai/sites/7a540d25-b8ec-4c95-a46e-c12d11d61cc2/webpages/ph
 - **Footer** — contact info, quick links, working newsletter signup
 
 ### Product Shop
-- **24 products** across 6 categories (Pain & Fever, Antibiotics, Vitamins, Diabetes Care, Heart & BP, Skin & Allergy)
+- **25 products** across 7 categories (Skin Care incl. real ARCU GLEAM Face Wash, Pain & Fever, Antibiotics, Vitamins, Diabetes Care, Heart & BP, Skin & Allergy)
 - Realistic **PKR pricing** with discounts and ratings
 - **Category filter chips** + live **search**
 - **Product detail modal** — description, dosage, quantity selector, prescription tags
 - **Shopping cart** — add/remove, quantity controls, subtotal/delivery/total, free-delivery threshold, localStorage persistence
+
+### Real Product Highlight
+**ARCU GLEAM Face Wash 100ml** — Deep Clean · Oil Control · Hydration Boost for acne-prone skin. Salicylic Acid (deep cleanses & unclogs pores), Niacinamide (controls oil & improves skin tone), Hyaluronic Acid (hydrates & maintains skin barrier). Shown with its real product photo.
 
 ### Design
 - Teal/green/white professional healthcare palette
@@ -43,6 +46,7 @@ pharmacy-website/
 ├── index.html
 ├── package.json
 ├── vite.config.js
+├── public/products/       # real product photos (ARCU GLEAM)
 └── src/
     ├── main.jsx
     ├── App.jsx
@@ -68,4 +72,4 @@ pharmacy-website/
 React 18 · Vite 6 · CSS3 (custom properties, animations, media queries)
 
 ---
-© 2026 MediCare Plus (Pvt) Ltd. — Demo project with sample data.
+© 2026 MediCare Plus (Pvt) Ltd. — Demo project featuring real ARCU GLEAM inventory.
